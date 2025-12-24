@@ -1,0 +1,1 @@
+<?php kama_breadcrumbs( '' ); ?>

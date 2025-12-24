@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#4E3D7D">
+    <title>Главная | YAPODBOR</title>
+    <link href="libs/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__row"><a class="header__logo" href="/"><img class="header__logo-img" src="img/icons/logo.svg" width="268" height="55" alt="ЯПодбор"></a>
+          <div class="header__panel">
+            <div class="commun header__commun">
+              <div class="commun__item commun__item--phone"><a class="commun__item-name" href="tel:+74951593920">+7 (495) 159-39-20</a>
+                <button class="btn--reset commun__item-btn" aria-label="Open modal">Перезвоните мне</button>
+              </div>
+            </div>
+            <div class="social header__social"><a class="social__link social__link--vk" href="#vk" target="_blank" title="Go to VK"></a><a class="social__link social__link--tg" href="#tg" target="_blank" title="Go to Telegram"></a><a class="social__link social__link--wa" href="#wa" target="_blank" title="Go to What's App"></a></div><a class="header__user" href="#!">Войти в личный кабинет клиента</a>
+            <button class="btn btn--reset btn--burger header__burger" aria-label="Open menu"></button>
+          </div>
+        </div>
+        <div class="header__menu">
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item"><a class="header__nav-link" href="#">О компании</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="#">Услуги</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="#">Наши работы</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="#">Контакты</a></li>
+              <li class="header__nav-item is-hot"><a class="header__nav-link" href="#">База проверенных автомобилей</a></li>
+            </ul>
+          </nav>
+          <div class="header__menu-btns btns-spacer"><a class="btn header__menu-btn" href="#!">Выбрать эксперта</a><a class="btn btn--accent header__menu-btn" href="#!">Получить консультацию</a></div>
+          <div class="header__menu-hidden">
+            <div class="commun header__commun">
+              <div class="commun__item commun__item--phone"><a class="commun__item-name" href="tel:+74951593920">+7 (495) 159-39-20</a>
+                <button class="btn--reset commun__item-btn" aria-label="Open modal">Перезвоните мне</button>
+              </div>
+            </div><a class="header__user" href="#!">Войти в личный кабинет клиента</a>
+            <div class="social header__social"><a class="social__link social__link--vk" href="#vk" target="_blank" title="Go to VK"></a><a class="social__link social__link--tg" href="#tg" target="_blank" title="Go to Telegram"></a><a class="social__link social__link--wa" href="#wa" target="_blank" title="Go to What's App"></a></div>
+          </div>
+        </div>
+        <div class="header__overlay"></div>
+      </div>
+    </header>
+    <div class="page-container container">
+      <div class="banner">
+        <div class="banner__bg"><img class="banner__bg-img" src="img/content/banner/bg.png" width="1920" height="1104" alt="Профессиональный автоподбор под ключ"></div>
+        <div class="banner__body">
+          <h1 class="banner__title">Профессиональный <br> автоподбор под ключ</h1>
+          <ul class="banner__list">
+            <li class="banner__list-item">Автоподбор и доставка по всей России</li>
+            <li class="banner__list-item">Более 200 квалифицированных экспертов</li>
+            <li class="banner__list-item">Работаем с любыми марками и бюджетами</li>
+            <li class="banner__list-item">Реальная техническая и юридическая гарантия на год</li>
+          </ul>
+          <div class="banner__benefits">
+            <div class="banner__benefits-col">
+              <div class="banner__benefits-col--body">
+                <div class="banner__benefits-title">Бесплатная консультация автоэксперта</div>
+                <div class="banner__benefits-desc">На консультации автоэксперт узнает о ваших предпочтениях, критериях, бюджете для подбора автомобиля и ответит на вопросы.</div>
+                <div class="banner__benefits-nav">
+                  <button class="btn btn--accent banner__benefits-btn" aria-label="Open modal">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+            <div class="banner__benefits-col">
+              <div class="banner__benefits-col--body">
+                <div class="banner__benefits-title">Подбор авто под ключ </div>
+                <div class="price">
+                  <div class="price__old">30 000 &#8381;</div>
+                  <div class="price__current">24 000 &#8381;</div>
+                </div>
+                <div class="banner__benefits-desc">После проверки автомобиля нашим специалистом вы можете убедиться в его юридической чистоте и технической исправности самостоятельно, скачав бесплатный отчёт.</div>
+                <div class="banner__benefits-nav">
+                  <button class="btn btn--accent banner__benefits-btn" aria-label="Open modal">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+            <div class="banner__benefits-col">
+              <div class="banner__benefits-col--body">
+                <div class="banner__benefits-title">Эксперты по подбору автомобилей</div>
+                <div class="banner__benefits-desc">В компании работает команда опытных экспертов-криминалистов, которые используют новое высокотехнологичное оборудование для подбора автомобилей по вашим предпочтениям.</div>
+                <div class="banner__benefits-nav">
+                  <button class="btn btn--accent banner__benefits-btn" aria-label="Open modal">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Что входит в услугу автоподбор</h2>
+        </div>
+        <div class="infoblock">
+          <div class="infoblock__columns">
+            <div class="infoblock__columns-item">
+              <p>Специалисты ЯПОDБОР подберут автомобиль по вашим пожеланиям и бюджету. В услугу включена техническая проверка всех узлов и агрегатов, компьютерная диагностика, а также обязательная криминалистическая проверка и проверка юридической чистоты.</p>
+            </div>
+            <div class="infoblock__columns-item">
+              <p>Наши эксперты умеют договариваться о приобретении автомобиля на основании состояния и рыночной стоимости. Эксперты подберут для вас лучший автомобиль и будут полностью сопровождать сделку, включая составление Договора купли-продажи.</p>
+            </div>
+          </div>
+          <div class="infoblock__img--wrap"><img class="infoblock__img" src="img/content/infoblock/main-1.png" width="1380" height="824" alt="Что входит в услугу автоподбор"></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="feedback">
+          <h2 class="feedback__title">Выберите автомобиль, который вы хотели бы приобрести</h2>
+          <p class="feedback__desc">Подберём юридически чистый и технически исправный автомобиль с учётом ваших предпочтений. <br /> При первом обращении дарим бесплатную консультацию и скидку 20% на подбор автомобиля под ключ!</p>
+          <form class="form feedback__form" action="/" method="/">
+            <div class="form__row">
+              <div class="input">
+                <select class="input__cell" name="mark">
+                  <option disabled="" selected="">Марка</option>
+                  <option value="0">Element 1</option>
+                  <option value="1">Element 2</option>
+                  <option value="2">Element 3</option>
+                </select>
+              </div>
+              <div class="input">
+                <select class="input__cell" name="model">
+                  <option disabled="" selected="">Модель</option>
+                  <option value="0">Element 1</option>
+                  <option value="1">Element 2</option>
+                  <option value="2">Element 3</option>
+                </select>
+              </div>
+              <div class="input">
+                <select class="input__cell" name="generation">
+                  <option disabled="" selected="">Поколение</option>
+                  <option value="0">Element 1</option>
+                  <option value="1">Element 2</option>
+                  <option value="2">Element 3</option>
+                </select>
+              </div>
+              <div class="input">
+                <select class="input__cell" name="year">
+                  <option disabled="" selected="">Год</option>
+                  <option value="0">Element 1</option>
+                  <option value="1">Element 2</option>
+                  <option value="2">Element 3</option>
+                </select>
+              </div>
+              <div class="input">
+                <input class="input__cell" type="text" name="budget" placeholder="Бюджет">
+              </div>
+              <div class="input">
+                <input class="input__cell" type="text" name="name" placeholder="Имя">
+              </div>
+              <div class="input">
+                <input class="input__cell" type="text" name="phone" placeholder="Телефон">
+              </div>
+              <div class="form__send">
+                <button class="btn btn--accent btn--huge form__btn" type="button" aria-label="Send form">Оставить заявку</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">О компании ЯПодбор</h2>
+        </div>
+        <div class="infoblock">
+          <div class="infoblock__columns">
+            <div class="infoblock__columns-item">
+              <p>Занимаемся подбором автомобилей с 2012 года. Делаем полную юридическую, техническую и криминалистическую проверку. География подбора не ограничивается Россией. Специалисты также ищут автомобили в странах СНГ, Европе и США <br><br> С момента основания компании мы подобрали более 9000 автомобилей, чётко следуя критериям клиентов. Доверьте нам поиск своего автомобиля — сэкономьте время, деньги и сохраните нервы.</p>
+            </div>
+            <div class="infoblock__columns-item">
+              <h5>Выгодный торг</h5>
+              <p> <strong>В 99% случаях оплата за услуги автоподбора окупается торгом с владельцем машины.</strong></p>
+            </div>
+            <div class="infoblock__columns-item">
+              <h5>Экономим ваше времЯ</h5>
+              <p>Проведём осмотр авто в течение нескольких часов после получения заявки.</p>
+            </div>
+          </div>
+          <div class="infoblock__img--wrap"><img class="infoblock__img" src="img/content/infoblock/main-2.png" width="1380" height="824" alt="Андрей Яровой | Генеральный директор ЯПОDБОР">
+            <div class="infoblock__img-panel">
+              <div class="infoblock__img-panel-title">Андрей Яровой</div>
+              <div class="infoblock__img-panel-desc">Генеральный директор ЯПОDБОР</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Наши преимущества</h2>
+        </div>
+        <div class="features">
+          <div class="features__row">
+            <div class="features__col">
+              <div class="features__col-body">
+                <div class="features__col-info">
+                  <div class="features__col-title">Полное сопровождение клиента</div>
+                  <p class="features__col-desc">Заполняем ДКП, помогаем при постановке в ГАИ, даём рекомендации по обслуживанию автомобиля: где пройти техосмотр, как получить скидку, купить масло или сделать химчистку и полировку.</p>
+                </div>
+                <div class="features__col-img--wrap"><img class="features__col-img" src="img/content/features/item_0.svg" width="76" height="85" alt="Title card"></div>
+              </div>
+            </div>
+            <div class="features__col">
+              <div class="features__col-body">
+                <div class="features__col-info">
+                  <div class="features__col-title">Занимаемся автоподбором более 10 лет</div>
+                  <p class="features__col-desc">Только за 2023 год мы помогли приобрести 556 автомобилей для клиентов. Мы постоянно улучшаем сервис и дорожим нашей репутацией.</p>
+                </div>
+                <div class="features__col-img--wrap"><img class="features__col-img" src="img/content/features/item_1.svg" width="140" height="65" alt="Title card"></div>
+              </div>
+            </div>
+            <div class="features__col">
+              <div class="features__col-body">
+                <div class="features__col-info">
+                  <div class="features__col-title">Находимся на связи с клиентом 24/7</div>
+                  <p class="features__col-desc">Помогаем на всех этапах — от получения заявки до приобретения авто. Специалисты готовы ответить на любые вопросы.</p>
+                </div>
+                <div class="features__col-img--wrap"><img class="features__col-img" src="img/content/features/item_2.svg" width="74" height="86" alt="Title card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Как устроена услуга <br> автоподбора?</h2>
+        </div>
+        <div class="coop">
+          <div class="coop__row">
+            <div class="coop__col">
+              <div class="coop__col-body">
+                <div class="coop__col-title">Онлайн-заявка на подбор автомобиля</div>
+                <p class="coop__col-desc">Через форму на сайте, по телефону или через мессенджеры.</p>
+              </div>
+            </div>
+            <div class="coop__col">
+              <div class="coop__col-body">
+                <div class="coop__col-title">Бесплатная консультация со специалистом</div>
+                <p class="coop__col-desc">Определяем требования к автомобилю, обсуждаем ваши пожелания, после чего заключаем договор. Вы вносите предоплату.</p>
+              </div>
+            </div>
+            <div class="coop__col">
+              <div class="coop__col-body">
+                <div class="coop__col-title">Поиск и проверка автомобиля</div>
+                <p class="coop__col-desc">Анализируем рынок. Проверяем историю автомобиля, проводим техническую, юридическую и криминалистическую проверку. Предоставляем отчёт и заключение эксперта о состоянии автомобиля.</p>
+              </div>
+            </div>
+            <div class="coop__col">
+              <div class="coop__col-body">
+                <div class="coop__col-title">Проверка автомобиля</div>
+                <p class="coop__col-desc">Проверяем на СТО. Предоставляем отчёт и заключение эксперта о состоянии автомобиля. Торгуемся с продавцом.</p>
+              </div>
+            </div>
+            <div class="coop__col">
+              <div class="coop__col-body">
+                <div class="coop__col-title">Заключение сделки купли-продажи</div>
+                <p class="coop__col-desc">Сопровождаем сделку, включая составление Договора купли-продажи, помогаем при постановке в ГАИ</p>
+              </div>
+            </div>
+            <div class="coop__col">
+              <div class="coop__col-body">
+                <div class="coop__col-title">Доставка автомобиля и оплата услуг подбора</div>
+                <p class="coop__col-desc">При необходимости доставляем автомобиль, если он приобретен в удаленном регионе или другой стране. Выдаём пакет документов. Вы оплачиваете услугу подбора и доставку.</p>
+              </div>
+            </div>
+          </div>
+          <div class="coop__footer">
+            <button class="btn btn--accent btn--huge btn--wide" aria-label="Open modal">Оставить заявку</button>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Кейсы проверенных <br> автомобилей</h2>
+        </div>
+        <div class="cases">
+          <div class="carousel-wrapper">
+            <div class="cases__slider overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide cases__card">
+                  <div class="cases__card-body">
+                    <div class="cases__card-gallery">
+                      <div class="cases__card-gallery-main"><img class="cases__card-gallery-main-img" src="img/content/cases/card_1/item_1.jpeg" width="676" height="454" alt="Card gallery"></div>
+                      <div class="cases__card-gallery-sub">
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_1/item_2.jpeg" width="676" height="454" alt="Card gallery"></div>
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_1/item_3.jpeg" width="676" height="454" alt="Card gallery"></div>
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_1/item_4.jpeg" width="676" height="454" alt="Card gallery"></div>
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_1/item_5.jpeg" width="676" height="454" alt="Card gallery"></div>
+                      </div>
+                    </div>
+                    <div class="cases__card-info">
+                      <div class="cases__card-title h4">Audi Q5</div>
+                      <ul class="cases__card-list list-reset">
+                        <li class="cases__card-list-item"><span>Двигатель:</span>
+                          <p>2.0 л / 177 л.с</p>
+                        </li>
+                        <li class="cases__card-list-item"><span>Владельцев:</span>
+                          <p>1</p>
+                        </li>
+                        <li class="cases__card-list-item"><span>Пробег:</span>
+                          <p>95 263 км.</p>
+                        </li>
+                        <li class="cases__card-list-item"><span> <strong>Стоимость:</strong></span>
+                          <p> <strong>1 560 000 &#8381;</strong></p>
+                        </li>
+                        <li class="cases__card-list-item"><span> <strong>Купили за:</strong></span>
+                          <p> <strong>1 490 000 &#8381;</strong></p>
+                        </li>
+                        <li class="cases__card-list-item"><span> <strong>Срок подбора:</strong></span>
+                          <p> <strong>3 дня</strong></p>
+                        </li>
+                      </ul>
+                      <div class="cases__card-text">
+                        <p>Обслуживался у официального дилера, пробег реальный. Небольшие притёртости на переднем бампере под полировку.</p>
+                        <p>Произведена компьютерная и сервисная диагностика - не выявлено никаких ошибок, авто технически полностью обслужен.</p>
+                        <p>Заменено масло в автомате 7 тыс. км назад, фильтры и масло в моторе. По ходовой части была произведена замена рычагов у официального дилера.</p>
+                      </div>
+                      <div class="cases__card-total">
+                        <div class="cases__card-total-title">Выгода с учетом затрат:</div>
+                        <div class="cases__card-total-price">70 000 &#8381;</div>
+                      </div>
+                      <div class="cases__card-nav btns-spacer"><a class="btn btn--accent btn--big" href="#!">Подобрать авто</a><a class="btn btn--dark btn--big" href="#!">Посмотреть все кейсы</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide cases__card">
+                  <div class="cases__card-body">
+                    <div class="cases__card-gallery">
+                      <div class="cases__card-gallery-main"><img class="cases__card-gallery-main-img" src="img/content/cases/card_2/item_1.jpeg" width="676" height="454" alt="Card gallery"></div>
+                      <div class="cases__card-gallery-sub">
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_2/item_2.jpeg" width="676" height="454" alt="Card gallery"></div>
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_2/item_3.jpeg" width="676" height="454" alt="Card gallery"></div>
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_2/item_4.jpeg" width="676" height="454" alt="Card gallery"></div>
+                        <div class="cases__card-gallery-sub-item"><img class="cases__card-gallery-sub-img" src="img/content/cases/card_2/item_5.jpeg" width="676" height="454" alt="Card gallery"></div>
+                      </div>
+                    </div>
+                    <div class="cases__card-info">
+                      <div class="cases__card-title h4">Range Rover</div>
+                      <ul class="cases__card-list list-reset">
+                        <li class="cases__card-list-item"><span>Двигатель:</span>
+                          <p>4.4 / V8 / 339 л.с</p>
+                        </li>
+                        <li class="cases__card-list-item"><span>Владельцев:</span>
+                          <p>1</p>
+                        </li>
+                        <li class="cases__card-list-item"><span>Пробег:</span>
+                          <p>91 000 км.</p>
+                        </li>
+                        <li class="cases__card-list-item"><span> <strong>Купили за:</strong></span>
+                          <p> <strong>7 299 000 &#8381;</strong></p>
+                        </li>
+                        <li class="cases__card-list-item"><span> <strong>Срок подбора:</strong></span>
+                          <p> <strong>13 дней</strong></p>
+                        </li>
+                      </ul>
+                      <div class="cases__card-text">
+                        <p>В очередной раз для покупки хорошего автомобиля пришлось проявить терпение. К нам обратился Алексей для подбора Range Rover IV. Критерии были таковы: от 2018 года, с богатой комплектацией и бюджетом 7.2 млн. </p>
+                        <p>Несмотря на то, что модель новая и дорогая - на рынке также много подводных камней. За 13 дней было проработано 11 вариантов, из них 7 не прошли нашу проверку на юридическую чистоту и остальные варианты не устраивали нас по состоянию.  </p>
+                        <p>В один день мы наткнулись на свежее объявление от собственника и отправились смотреть авто. После тщательной проверки - он на 100% оправдал наши ожидания. Именно этот автомобиль мы предложили нашему клиенту! Благодаря профессиональному торгу нам удалось снизить стоимость авто даже ниже бюджета Андрея. Таким образом, машина была не только выгодно приобретена, но и окупила стоимость наших услуг!  </p>
+                      </div>
+                      <div class="cases__card-total">
+                        <div class="cases__card-total-title">Выгода с учетом затрат:</div>
+                        <div class="cases__card-total-price">500 000 &#8381;</div>
+                      </div>
+                      <div class="cases__card-nav btns-spacer"><a class="btn btn--accent btn--big" href="#!">Подобрать авто</a><a class="btn btn--dark btn--big" href="#!">Посмотреть все кейсы</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-pagination"></div>
+            <div class="slider-nav">
+              <button class="btn--reset slider-btn slider-btn-prev" aria-label="Prev slide"></button>
+              <button class="btn--reset slider-btn slider-btn-next" aria-label="Next slide"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--bg">
+        <div class="section__head text-center">
+          <h2 class="section__title">Услуги</h2>
+        </div>
+        <div class="section__img-bg--wrap"><img class="section__img-bg" src="img/content/services/bg.png" width="1920" height="2822" alt="Услуги"></div>
+        <div class="services">
+          <div class="services__row">
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Подбор автомобилей под ключ</div>
+                    <div class="price services__card-price">
+                      <div class="price__old">30 000 &#8381;</div>
+                      <div class="price__current">24 000 &#8381;</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Подбор автомобиля по вашим предпочтениям. Ищем автомобиль не только по общедоступным базам, но также в закрытых каналах, трейд-ин, у официальных дилеров, на специальных площадках.</p>
+                  <ul class="services__card-list">
+                    <li>Поиск по всем базам</li>
+                    <li>Подбор автомобиля до желаемого результата</li>
+                    <li>Юридическая проверка</li>
+                    <li>Техническая проверка</li>
+                    <li>Криминалистическая проверка</li>
+                    <li>Сопровождение в постановке на учёт</li>
+                  </ul>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Разовый осмотр автомобилей</div>
+                    <div class="price services__card-price">
+                      <div class="price__current">7 000 &#8381;</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Выезд эксперта для осмотра выбранного вами автомобиля.</p>
+                  <ul class="services__card-list">
+                    <li>Юридическая проверка</li>
+                    <li>Техническая проверка</li>
+                    <li>Криминалистическая проверка</li>
+                    <li>Помощь в заключении Договора купли-продажи</li>
+                    <li>Диагностический лист на фирменном бланке</li>
+                  </ul>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Подбор автомобиля - эксперт на день</div>
+                    <div class="price services__card-price">
+                      <div class="price__current">14 000 &#8381;</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Проверка до 4 выбранных вами автомобилей за день.</p>
+                  <ul class="services__card-list">
+                    <li>Юридическая проверка</li>
+                    <li>Техническая проверка</li>
+                    <li>Криминалистическая проверка</li>
+                    <li>Помощь в заключении Договора купли-продажи</li>
+                    <li>Диагностический лист на фирменном бланке</li>
+                    <li>Область и более 10км от МКАДа оплачивается по тарифу отдельно</li>
+                  </ul>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Сервисные услуги</div>
+                    <div class="price services__card-price">
+                      <div class="price__desc">Оплата договорная</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc"> </p>
+                  <ul class="services__card-list">
+                    <li>Рихтовка</li>
+                    <li>Полировка</li>
+                    <li>Химчистка</li>
+                    <li>Чистка фар</li>
+                    <li>Полировка стекол</li>
+                    <li>Малярные работы</li>
+                    <li>Мелкосрочный ремонт</li>
+                    <li>Удаление вмятин без покраски и нарушения ЛКП</li>
+                    <li>Перешив салона в кожу или алькантару и отдельных элементов (руль, кресло, подлокотник)</li>
+                  </ul>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Доставка автомобиля</div>
+                    <div class="price services__card-price">
+                      <div class="price__desc">Оплата договорная</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">В нашем парке несколько десятков автовозов. Мы сотрудничаем с ведущими транспортными компаниями, а так же наша организация владеет собственным парком автовозов, поэтому с легкостью доставим автомобиль в ваш город.</p>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Комиссионная продажа</div>
+                    <div class="price services__card-price">
+                      <div class="price__desc">Оплата договорная</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Принимаем автомобили на комиссию по вашей цене. После продажи вы гарантировано получите сумму, на которую рассчитывали.</p>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Трейд-ин</div>
+                    <div class="price services__card-price">
+                      <div class="price__desc">Оплата договорная</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Вы можете сдать свой автомобиль и получить скидку на новый. У нас большой выбор автомобилей с пробегом. Все они проверены экспертами и технически полностью исправны.</p>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Выкуп автомобиля</div>
+                    <div class="price services__card-price">
+                      <div class="price__desc">Оплата договорная</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Вы можете сдать свой автомобиль и получить скидку на новый. У нас большой выбор автомобилей с пробегом. Все они проверены экспертами и технически полностью исправны.</p>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Подбор и доставка новых автомобилей из США и Европы</div>
+                    <div class="price services__card-price">
+                      <div class="price__current">100 000 &#8381;</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Найдём новый автомобиль зарубежом по вашим предпочтениям.</p>
+                  <ul class="services__card-list">
+                    <li>Подбор по всей Америке и Европе</li>
+                    <li>Юридическая проверка</li>
+                    <li>Техническая проверка</li>
+                    <li>Заключение договора и полное сопровождение сделки</li>
+                    <li>Надёжная доставка по суше и морю</li>
+                    <li>Помощь с постановкой на учёт в РФ</li>
+                    <li>Техническая и финансовая гарантия сроком на 1 год</li>
+                  </ul>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card--wrap">
+                <div class="services__card-info">
+                  <div class="services__card-head">
+                    <div class="services__card-title">Подбор и доставка автомобилей с пробегом из США, Европы и Республики Беларусь</div>
+                    <div class="price services__card-price">
+                      <div class="price__current">50 000 &#8381;</div>
+                    </div>
+                  </div>
+                  <p class="services__card-desc">Подберём автомобиль с пробегом зарубежом.</p>
+                  <ul class="services__card-list">
+                    <li>Подбор по всей Америке, Европе и республике Беларусь</li>
+                    <li>Юридическая проверка</li>
+                    <li>Техническая проверка</li>
+                    <li>Заключение договора и полное сопровождение сделки</li>
+                    <li>Надёжная доставка по суше и морю</li>
+                    <li>Помощь с постановкой на учёт в РФ</li>
+                  </ul>
+                </div>
+                <div class="services__card-nav"><a class="btn btn--accent btn--big services__card-btn" href="#">Подробнее</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Горячее предложение</h2>
+        </div>
+        <div class="hotoffer">
+          <div class="carousel-wrapper">
+            <div class="hotoffer__slider overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="hotoffer__card swiper-slide">
+                  <div class="hotoffer__card-body">
+                    <div class="hotoffer__card-img--wrap"><img class="hotoffer__card-img" src="img/content/hotoffer/item_1.png" width="571" height="428" alt="Title card">
+                      <div class="hotoffer__card-title">BMW X5, 2020</div>
+                    </div>
+                    <div class="hotoffer__card-content">
+                      <div class="hotoffer__card-info">
+                        <div class="hotoffer__card-list list-reset">
+                          <li>51 500 км</li>
+                          <li>4.4л / 530 л.с. л / 530 л.с / Бензиновый</li>
+                          <li>Автоматическая</li>
+                          <li>Внедорожник 5 дв.</li>
+                          <li>Полный</li>
+                          <li>Синий</li>
+                        </div>
+                      </div>
+                      <div class="hotoffer__card-nav">
+                        <div class="price hotoffer__card-price">
+                          <div class="price__current">8 990 000 &#8381;</div>
+                        </div>
+                        <button class="btn btn--accent btn--big btn--wide" aria-label="Open modal">Оставить заявку </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hotoffer__card swiper-slide">
+                  <div class="hotoffer__card-body">
+                    <div class="hotoffer__card-img--wrap"><img class="hotoffer__card-img" src="img/content/hotoffer/item_2.png" width="571" height="428" alt="Title card">
+                      <div class="hotoffer__card-title">BMW M5, 2018</div>
+                    </div>
+                    <div class="hotoffer__card-content">
+                      <div class="hotoffer__card-info">
+                        <div class="hotoffer__card-list list-reset">
+                          <li>57 000 км</li>
+                          <li>4.4л / 625 л.с. л / 625 л.с / Бензиновый</li>
+                          <li>Автоматическая</li>
+                          <li>Седан</li>
+                          <li>Полный</li>
+                          <li>Антибликовый белый</li>
+                        </div>
+                      </div>
+                      <div class="hotoffer__card-nav">
+                        <div class="price hotoffer__card-price">
+                          <div class="price__current">8 600 000 &#8381;</div>
+                        </div>
+                        <button class="btn btn--accent btn--big btn--wide" aria-label="Open modal">Оставить заявку </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hotoffer__card swiper-slide">
+                  <div class="hotoffer__card-body">
+                    <div class="hotoffer__card-img--wrap"><img class="hotoffer__card-img" src="img/content/hotoffer/item_3.png" width="571" height="428" alt="Title card">
+                      <div class="hotoffer__card-title">Porsche Cayenne, 2019</div>
+                    </div>
+                    <div class="hotoffer__card-content">
+                      <div class="hotoffer__card-info">
+                        <div class="hotoffer__card-list list-reset">
+                          <li>85 000 км</li>
+                          <li>3.0л / 340 л.с. л / 340 л.с / Бензиновый</li>
+                          <li>Автоматическая</li>
+                          <li>Внедорожник 5 дв.</li>
+                          <li>Полный</li>
+                          <li>Антибликовый белый</li>
+                        </div>
+                      </div>
+                      <div class="hotoffer__card-nav">
+                        <div class="price hotoffer__card-price">
+                          <div class="price__current">8 350 000 &#8381;</div>
+                        </div>
+                        <button class="btn btn--accent btn--big btn--wide" aria-label="Open modal">Оставить заявку </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hotoffer__card swiper-slide">
+                  <div class="hotoffer__card-body">
+                    <div class="hotoffer__card-img--wrap"><img class="hotoffer__card-img" src="img/content/hotoffer/item_4.png" width="571" height="428" alt="Title card">
+                      <div class="hotoffer__card-title">BMW X4, 2019</div>
+                    </div>
+                    <div class="hotoffer__card-content">
+                      <div class="hotoffer__card-info">
+                        <div class="hotoffer__card-list list-reset">
+                          <li>122 000 км</li>
+                          <li>2.0л / 190 л.с. л / 190 л.с / Дизельный</li>
+                          <li>Автоматическая</li>
+                          <li>Внедорожник 5 дв.</li>
+                          <li>Полный</li>
+                          <li>Черный</li>
+                        </div>
+                      </div>
+                      <div class="hotoffer__card-nav">
+                        <div class="price hotoffer__card-price">
+                          <div class="price__current">4 444 000 &#8381;</div>
+                        </div>
+                        <button class="btn btn--accent btn--big btn--wide" aria-label="Open modal">Оставить заявку </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-pagination"></div>
+            <div class="slider-nav">
+              <button class="btn--reset slider-btn slider-btn-prev" aria-label="Prev slide"></button>
+              <button class="btn--reset slider-btn slider-btn-next" aria-label="Next slide"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="feedback">
+          <h2 class="feedback__title">Свяжитесь с нами</h2>
+          <p class="feedback__desc">Заполните заявку, чтобы мы точно поняли ваш запрос. Мы перезвоним и ответим на все ваши вопросы.</p>
+          <form class="form feedback__form" action="/" method="/">
+            <div class="form__row">
+              <div class="input">
+                <input class="input__cell" type="text" name="name" placeholder="Имя">
+              </div>
+              <div class="input">
+                <input class="input__cell" type="text" name="phone" placeholder="Телефон">
+              </div>
+              <div class="input">
+                <select class="input__cell" name="region">
+                  <option disabled="" selected="">Выберите регион</option>
+                  <option value="0">Element 1</option>
+                  <option value="1">Element 2</option>
+                  <option value="2">Element 3</option>
+                </select>
+              </div>
+              <div class="form__send">
+                <button class="btn btn--accent btn--huge form__btn" type="button" aria-label="Send form">Оставить заявку</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="section">
+        <div class="faq">
+          <div class="faq__list">
+            <div class="faq__item">
+              <button class="btn--reset faq__item-btn js-accordion" aria-expanded="true" aria-label="Toggle accordion">Чем полезен автоподбор?</button>
+              <div class="faq__item-content--wrap">
+                <div class="faq__item-content">
+                  <p>Если вы заинтересованы в широком выборе автомобилей на рынке, придётся приложить много времени и усилий, чтобы сделать правильный выбор. Однако, не всегда есть возможность самостоятельно заниматься такой долгой монотонной работой. В данном случае, сайт автоподбора может быть полезен: с его помощью найдётся профессионал, который проведет все необходимые процедуры. Квалифицированный эксперт ознакомится с состоянием машины, посоветует вам лучшие марки и производителей, а также предложит несколько подходящих вариантов. Вы всегда сохраняете право на выбор, но специалист поможет принять решение и ориентироваться на обширном рынке, учитывая местные правила. Если вас интересует автоподбор Москва, наша компания предлагает услуги опытных специалистов.</p>
+                  <p>Наши сотрудники проведут комплекс мероприятий, опираясь на ваши пожелания и требования. Они проводят детальное обсуждение с клиентами заранее, чтобы определить их интересы в автомобилях, моделях, марках, диапазоне цен и желаемом пробеге. Все характеристики будут изучены неоднократно, чтобы составить полный план, соответствующий критериям выбора.</p>
+                  <p>Автоподбор авто включает проверку документов владельца машины, изучение юридических нарушений в ходе эксплуатации, проведение внешнего осмотра и определение тюнингованных и отремонтированных деталей, проверку истории обслуживания автомобиля, систематизацию собранных данных и информирование клиента любым удобным способом.</p>
+                  <p>Мы заботимся о том, чтобы всё было выполнено быстро и правильно, с учетом пожеланий и требований клиента. Наши специалисты имеют большой опыт работы с автомобилями и помогут вам найти и проверить машину, полностью соответствующую вашим вкусам и предпочтениям. </p>
+                  <p>Стоимость услуги автоподбора в нашей фирме зависит от выбранного договора и сроков. Опытные профессионалы проверяют не только объявления в сети, но также дилерские базы, трейд-ин, закрытые сервисы, исследуя все доступные варианты, пока не будет найден наиболее подходящий автомобиль. Все проверки проводятся заранее с юридической точки зрения, чтобы убедиться в честности и законности сделки. Мы уделяем этому аспекту большое внимание, так как новичку-автолюбителю легко запутаться на обширном современном рынке автомобилей.</p>
+                  <p>Мы обладаем всеми необходимыми документами и лицензиями, с которыми можно легко ознакомиться на нашем сайте, или обратившись к оператору. У нас достаточно опыта в предоставлении данного вида услуг, что позволяет сделать процесс быстрым и не утомительным для потенциального покупателя.</p>
+                  <p>Покупка подержанного автомобиля всегда является сложным процессом, но его без труда можно сделать гораздо проще. Мы предлагаем автоподбор Мск по доступной цене, которая полностью окупает потенциальные издержки и помогает избежать дополнительных расходов. Сервис доступен в любой точке страны, достаточно позвонить по указанному телефону и оставить заявку.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item">
+              <button class="btn--reset faq__item-btn js-accordion" aria-expanded="false" aria-label="Toggle accordion">Что делает эксперт?</button>
+              <div class="faq__item-content--wrap">
+                <div class="faq__item-content">
+                  <p>Автоэксперт — это услуга, которая предлагается компаниями по продаже автомобилей. Опытный специалист помогает потенциальным покупателям выбрать подходящий вариант среди огромного количества объявлений на сайтах. Покупка автомобиля требует времени, усилий и средств, поэтому важно обратить внимание на каждую деталь, чтобы избежать проблем и ненужных трат. В таких случаях полезно иметь рядом квалифицированного помощника, который сможет дать советы и провести проверку. Наши профессионалы уже долгое время осуществляют автоподбор в Москве под ключ.</p>
+                  <p>Особенность такого сотрудника заключается в том, что он помогает клиентам на вторичном рынке машин найти правильную покупку. Срок услуги может быть гибким и зависит только от пожеланий клиента. Если потенциальные варианты уже отобраны, эксперт может осмотреть и оценить автомобиль за сутки. При необходимости он даст рекомендации, изучит историю машины и предоставит структурированную информацию для удобства клиента. Автоэксперт уже опытен в этой сфере и сможет быстро определить, есть ли риск мошенничества со стороны продавца.</p>
+                  <p>Перед окончательным решением о покупке необходимо убедиться в правильном оформлении документов и провести тест-драйв. В этом поможет профессионал. Сайт автоподбора ЯПодбор познакомит с нашими лучшими работниками.</p>
+                  <p>Если вы сомневаетесь в своем опыте, хотите избежать переплаты и нечестных продавцов, или у вас просто нет времени на тщательный подбор автомобиля, то автоэксперт будет отличным выбором. Компания гарантирует качество работы и полностью учитывает требования клиента.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item">
+              <button class="btn--reset faq__item-btn js-accordion" aria-expanded="false" aria-label="Toggle accordion">Как осматривают автомобили?</button>
+              <div class="faq__item-content--wrap">
+                <div class="faq__item-content">
+                  <p>Осмотр автомобиля перед покупкой - это процедура, включающая проверку транспортного средства на его безопасность, надежность и наличие потенциальных неисправностей перед покупкой. Онлайн-проверка может выявить скрытые повреждения, а личное участие профессионала поможет установить замаскированные неисправности и избежать неприятностей в будущем. Основная цель - обеспечить безопасность и комфорт клиента, а также предотвратить ненужные траты на ремонт или покупку другого транспортного средства. Заказ осмотра автомобиля рекомендуется, если есть опасения относительно недобросовестных продавцов или недостаточного опыта для определения скрытых неисправностей.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item">
+              <button class="btn--reset faq__item-btn js-accordion" aria-expanded="false" aria-label="Toggle accordion">Цена услуги автоподбора</button>
+              <div class="faq__item-content--wrap">
+                <div class="faq__item-content">
+                  <p>В нашей компании стоимость начинается от тридцати тысяч рублей и включает все необходимые услуги. С клиентом заключается официальный договор, обсуждаются детали и интересующие аспекты. Такая цена автоподбора является выгодной, так как в девяносто девяти процентах случаев окупает торги и дополнительные расходы.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq__footer">
+            <button class="btn btn--accent btn--huge btn--wide" aria-label="Open modal">Оставить заявку</button>
+          </div>
+        </div>
+      </section>
+      <section class="section section--bg">
+        <div class="contacts">
+          <div class="contacts__row">
+            <div class="contacts__info">
+              <h2 class="contacts__title">Контакты</h2>
+              <ul class="contacts__list list-reset">
+                <li class="contacts__list-item"><span class="contacts__list-name">Номер телефона</span><a class="contacts__list-link" href="tel:+74951593920">+7 (495) 159-39-20</a></li>
+                <li class="contacts__list-item"><span class="contacts__list-name">Почта</span><a class="contacts__list-link" href="mailto:yarovoipodbor@yandex.ru">yarovoipodbor@yandex.ru</a></li>
+                <li class="contacts__list-item"><span class="contacts__list-name">Адрес</span>
+                  <div class="contacts__list-link">г.Москва, ул. Ташкентская, д28с1</div>
+                </li>
+              </ul>
+            </div>
+            <div class="contacts__map">
+              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab22385ad2cd865e02d0eded7e5e4f20ed40c206704ab67448a74c1a236fbb563&amp;amp;width=700&amp;amp;height=400&amp;amp;lang=ru_RU&amp;amp;scroll=true"></script>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__panel"><a class="footer__logo" href="/"><img class="footer__logo-img" src="img/icons/logo.svg" width="268" height="55" alt="ЯПодбор"></a>
+          <div class="commun footer__commun">
+            <div class="commun__item commun__item--phone"><a class="commun__item-name" href="tel:+74951593920">+7 (495) 159-39-20</a>
+              <button class="btn--reset commun__item-btn" aria-label="Open modal">Перезвоните мне</button>
+            </div>
+          </div>
+          <div class="footer__panel-btns btns-spacer"><a class="btn btn--accent footer__panel-btn" href="#!">Получить консультацию</a><a class="btn btn--border-light footer__panel-btn" href="#!">Выбрать эксперта</a></div>
+        </div>
+        <div class="footer__row">
+          <div class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <div class="footer__nav-item-title"><a class="footer__nav-link" href="#!">Услуги</a>
+                  <button class="btn btn--reset btn--chevron-down footer__nav-toggle" aria-label="Toggle submenu"></button>
+                </div>
+                <ul class="footer__nav-child-list">
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Разовый осмотр</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Подбор авто «Под ключ»</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Эксперт на день</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Доставка авто</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Выкуп автомобиля</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Доп услуги</a></li>
+                </ul>
+              </li>
+              <li class="footer__nav-item">
+                <div class="footer__nav-item-title"><a class="footer__nav-link" href="#!">О компании</a>
+                  <button class="btn btn--reset btn--chevron-down footer__nav-toggle" aria-label="Toggle submenu"></button>
+                </div>
+                <ul class="footer__nav-child-list">
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">О нас</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Блог</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Влог</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Портфолио</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Адреса и телефоны</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Онлайн оплата</a></li>
+                </ul>
+              </li>
+              <li class="footer__nav-item">
+                <div class="footer__nav-item-title"><a class="footer__nav-link" href="#!">Личный кабинет</a>
+                  <button class="btn btn--reset btn--chevron-down footer__nav-toggle" aria-label="Toggle submenu"></button>
+                </div>
+                <ul class="footer__nav-child-list">
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Личный кабинет клиента</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Регистрация для клиента</a></li>
+                  <li class="footer__nav-child-item"><a class="footer__nav-child-link" href="#!">Вход для специалиста</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__social social"><a class="social__link social__link--wa" href="#wa" target="_blank" title="Go to What's App">What's App</a><a class="social__link social__link--tg" href="#tg" target="_blank" title="Go to Telegram">Telegram</a><a class="social__link social__link--vk" href="#vk" target="_blank" title="Go to VK">VK</a></div>
+        </div>
+        <div class="footer__copy">
+          <div class="footer__copy-text">2024 © ЯПОDБОР Все права защищены</div>
+          <div class="footer__copy-desc"><a href="#!" target="_blank">Политика конфиденциальности</a><a href="#!" target="_blank">Публичная оферта</a></div>
+          <div class="footer__copy-desc">
+            <p>ИП Яровой Сергей Анатольевич <br /> OГРНИП: 321631300065010</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

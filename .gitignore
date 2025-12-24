@@ -1,0 +1,37 @@
+# Игнорируем директории WordPress
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-*/
+wp-content/backups/
+wp-content/w3tc-config/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/wp-cache-config.php
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Среда разработки
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Зависимости
+vendor/
+node_modules/
+
+# Файлы операционных систем
+*~
+*.bak
+*.tmp
+
+# Файлы IDE
+.project
+.buildpath
+.settings/
+*.sublime-*
