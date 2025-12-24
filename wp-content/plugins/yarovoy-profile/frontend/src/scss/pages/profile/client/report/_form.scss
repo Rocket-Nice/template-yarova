@@ -1,0 +1,63 @@
+.profile-report__block {
+	margin-bottom: 60px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.profile-report__block-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px 36px;
+	background: #EEEEEE;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	& svg {
+		margin-left: 10px;
+	}
+
+	@media (max-width: $mobile) {
+		font-size: 18px;
+		padding: 18px 24px;
+	}
+}
+
+.profile-report__block-content {
+	padding-top: 40px;
+
+	@media (max-width: $mobile) {
+		padding-top: 20px;
+	}
+}
+
+.profile-report__block-subtitle {
+	font-size: 18px;
+	color: var(--fg-dark);
+	font-weight: 600;
+	margin-bottom: 40px;
+
+	&._error {
+		color: var(--fg-red);
+	}
+}
+
+.profile-report__block-comment {
+	width: 100%;
+	padding: 32.5px 30px;
+	border: 2px solid #000000;
+	font-size: var(--fz-20);
+	line-height: 100%;
+	border-radius: 5px;
+	margin-top: 20px;
+	min-height: 85px;
+}
+
+.profile-report__block-number {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}

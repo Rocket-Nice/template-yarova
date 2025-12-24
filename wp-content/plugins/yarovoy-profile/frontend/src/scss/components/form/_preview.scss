@@ -1,0 +1,27 @@
+.preview {
+	.form__error {
+		text-align: center;
+		margin-top: .5rem;
+	}
+}
+
+.preview__block {
+	position: relative;
+}
+
+.preview__input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	opacity: 0;
+	z-index: 10;
+}
+
+.preview__output {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

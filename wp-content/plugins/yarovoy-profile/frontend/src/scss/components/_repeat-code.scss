@@ -1,0 +1,13 @@
+.code__repeat {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.code__repeat button {
+	background: none;
+	border: none;
+	color: var(--fg-red);
+	text-decoration: underline;
+	cursor: pointer;
+}

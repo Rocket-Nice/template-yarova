@@ -1,0 +1,16 @@
+.profile-report__subtitle {
+	font-size: var(--fz-h2);
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.profile-report__title {
+	margin-bottom: 60px;
+	font-size: var(--fz-60);
+	line-height: 100%;
+
+	@media (max-width: $mobile) {
+		margin-bottom: 30px;
+		font-size: 30px;
+	}
+}

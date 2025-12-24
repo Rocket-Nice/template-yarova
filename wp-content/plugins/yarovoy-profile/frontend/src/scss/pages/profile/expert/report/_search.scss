@@ -1,0 +1,19 @@
+.profile-report-search__form {
+	position: relative;
+
+	& .btn {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 72px;
+		width: 200px;
+
+		@media (max-width: $tablet) {
+			height: 60px;
+		}
+
+		@media (max-width: $mobile) {
+			width: 150px;
+		}
+	}
+}

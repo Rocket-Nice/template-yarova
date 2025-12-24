@@ -1,0 +1,43 @@
+.upload-car__menu {
+	width: 249px;
+	max-width: 100%;
+
+	@media (max-width: $tablet) {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+		margin-bottom: 30px;
+	}
+}
+
+.upload-car__menu-item {
+	display: block;
+	padding: 0;
+	border: none;
+	background: none;
+	color: var(--fg-gray-9);
+	margin-bottom: 30px;
+	transition: all .3s;
+	font-weight: 700;
+	font-size: var(--fz-h3);
+	cursor: pointer;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&._active {
+		color: var(--fg-dark);
+	}
+
+	&:disabled {
+		cursor: auto;
+		pointer-events: none;
+	}
+
+	@media (max-width: $tablet) {
+		margin-bottom: 0;
+		text-align: left;
+	}
+}

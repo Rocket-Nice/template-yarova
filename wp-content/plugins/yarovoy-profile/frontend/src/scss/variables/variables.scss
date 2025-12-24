@@ -1,0 +1,19 @@
+:root {
+	--fz-regular: 18px;
+	--fz-20: 20px;
+	--fz-60: 60px;
+
+	--fz-h1: 65px;
+	--fz-h2: 40px;
+	--fz-h3: 22px;
+
+	@media (max-width: $tablet) {
+		--fz-regular: 16px;
+		--fz-20: 18px;
+		--fz-60: 40px;
+
+		--fz-h1: 45px;
+		--fz-h2: 28px;
+		--fz-h3: 18px;
+	}
+}

@@ -1,0 +1,40 @@
+.btn--loader {
+	position: relative;
+
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		margin-top: -16px;
+		width: 32px;
+		height: 32px;
+		background: url('../img/icons/icon-loader.svg') center center no-repeat;
+		background-size: contain;
+		transition: all 0.5s ease;
+		animation: rotate 1s linear infinite;
+		opacity: 0;
+	}
+
+	&._active:after {
+		opacity: 1;
+	}
+
+
+	&:disabled {
+		opacity: .6;
+	}
+}
+
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+

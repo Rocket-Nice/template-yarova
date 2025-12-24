@@ -1,0 +1,145 @@
+.report-form__fields {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	row-gap: 30px;
+	column-gap: 30px;
+
+	&._1 {
+		grid-template-columns: 1fr;
+	}
+
+	&._2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: $tablet) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr !important;
+	}
+
+	//@media (max-width: $mobile) {
+	//	grid-template-columns: 1fr;
+	//}
+}
+
+.report-form__data-files {
+	margin-top: 30px;
+}
+
+.report-form__features .input {
+	margin-bottom: 0;
+}
+
+.report-form__media {
+	padding: 26px 137px;
+	position: relative;
+}
+
+.report-form__media-img {
+	max-width: 100%;
+}
+
+.report-form__inspection .report-form__fields {
+	display: block;
+	gap: 0;
+}
+
+.report-form__dashboard .report-form__fields {
+	grid-template-columns: repeat(2, 1fr);
+	max-width: 1185px;
+}
+
+.report-form__summary .report-form__fields {
+	display: block;
+	gap: 0;
+}
+
+.report-form__summary .inspection__field-input label {
+	width: 98px;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.report-form__actions {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+		gap: 15px;
+	}
+}
+
+.report-form__client .input {
+	margin: 0;
+}
+
+.profile-report__preview-comment {
+	display: none !important;
+
+	&._active {
+		display: block !important;
+	}
+}
+
+.report-form__errors {
+	padding: 30px 20px;
+	background: var(--fg-red);
+	color: var(--fg-white);
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.report-form__errors-title {
+	margin-bottom: 15px;
+}
+
+.report-form__errors-text p {
+	color: var(--fg-white);
+}
+
+.report-form__inspection-values .report-form__fields {
+	grid-template-columns: 1fr;
+	gap: 0;
+}
+
+[data-type="summary"] .inspection__field-input label {
+	width: 98px;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.profile-form__block[data-type="total"] {
+	margin-top: -40px;
+}
+
+.report-form__message {
+	padding: 20px;
+	text-align: center;
+	background: var(--fg-red);
+	color: var(--fg-white);
+	font-size: var(--fz-regular);
+	margin-top: 20px;
+	border-radius: 5px;
+	display: none;
+
+	&._active {
+		display: block;
+	}
+}
+
+.report-form__documents-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 30px;
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+	}
+}

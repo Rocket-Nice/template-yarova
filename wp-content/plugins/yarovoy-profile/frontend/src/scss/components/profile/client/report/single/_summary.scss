@@ -1,0 +1,56 @@
+.profile-report__summary-item {
+	margin-bottom: 40px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&._total .profile-report__summary-item__value {
+		width: auto;
+		padding: 23px 37.5px;
+		text-transform: uppercase;
+		max-width: fit-content;
+	}
+}
+
+.profile-report__summary-item__value {
+	width: 98px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: var(--fz-20);
+	background-color: var(--fg-red);
+	border-radius: 5px;
+	color: var(--fg-white);
+	font-weight: 700;
+
+	&._middle {
+		background-color: var(--fg-yellow);
+	}
+
+	&._ok {
+		background-color: var(--fg-green);
+	}
+}
+
+.profile-report__summary--vin {
+	& .profile-report__summary-list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 40px;
+
+		@media (max-width: $mobile) {
+			grid-template-columns: 1fr;
+			gap: 20px;
+		}
+	}
+
+	& .profile-report__summary-item__value {
+		width: auto;
+	}
+
+	& .profile-report__summary-item {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,14 @@
+.profile-settings__fields .profile-form__block-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+
+	@media (max-width: $mobile) {
+		gap: 20px;
+		grid-template-columns: 1fr;
+	}
+}
+
+.profile-settings__fields .input {
+	margin-bottom: 0 !important;
+}

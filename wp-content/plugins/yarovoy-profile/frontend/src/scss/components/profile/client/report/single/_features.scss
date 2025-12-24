@@ -1,0 +1,15 @@
+.profile-report__features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 30px;
+	row-gap: 40px;
+
+	& .input {
+		margin: 0;
+	}
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+		row-gap: 20px;
+	}
+}

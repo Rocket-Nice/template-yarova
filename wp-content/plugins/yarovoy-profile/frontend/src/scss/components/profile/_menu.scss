@@ -1,0 +1,40 @@
+.profile__menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0 0 60px;
+	list-style: none;
+
+	& li {
+		@media (max-width: $tablet) {
+			margin-right: 30px;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	& li a {
+		display: block;
+		color: var(--fg-gray-9);
+		font-size: var(--fz-20);
+		font-weight: 700;
+		text-transform: uppercase;
+
+		&._active {
+			color: var(--fg-dark);
+		}
+
+		@media (max-width: $tablet) {
+			font-size: 16px;
+		}
+	}
+
+	@media (max-width: $tablet) {
+		white-space: nowrap;
+		overflow-y: auto;
+		margin: 0 0 40px;
+	}
+}

@@ -1,0 +1,19 @@
+.upload-car__subtitle {
+	font-size: var(--fz-regular);
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.upload-car__grid {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(3, 1fr);
+
+	&._2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	& .input {
+		margin: 0 !important;
+	}
+}

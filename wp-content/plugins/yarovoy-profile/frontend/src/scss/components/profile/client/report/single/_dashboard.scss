@@ -1,0 +1,31 @@
+.profile-report__dashboard-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 40px;
+	column-gap: 20px;
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+	}
+}
+
+.profile-report__dashboard-item {
+	display: flex;
+	align-items: center;
+}
+
+.profile-report__dashboard-icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #AEAEAE;
+}
+
+.profile-report__dashboard-text {
+	margin-left: 20px;
+	font-weight: 500;
+	font-size: var(--fz-20);
+}

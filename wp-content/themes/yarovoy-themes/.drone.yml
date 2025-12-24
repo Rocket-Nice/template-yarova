@@ -1,0 +1,51 @@
+kind: pipeline
+name: CI Pipeline
+type: docker
+
+trigger:
+  branch:
+    - dev
+  event:
+    - push
+
+steps:
+- name: release deploy
+  image: alpine
+  environment:
+    FTP_USERNAME:
+      from_secret: yarovoy-wp-ftp-login
+    FTP_PASSWORD:
+      from_secret: yarovoy-wp-ftp-password 
+  commands:
+      - apk add --no-cache lftp
+      - lftp -c "
+          set ftp:ssl-allow no;
+          set ftp:passive-mode on;
+          open -u $FTP_USERNAME,$FTP_PASSWORD yar.azat-web.ru;
+          mirror -Rev --only-newer --delete --ignore-time --exclude .git/ --exclude .gitignore --exclude .drone.yml  ./ /wp-content/themes/yarovoy/;
+          bye"
+
+---
+kind: pipeline
+name: CI Pipeline prod
+type: docker
+
+trigger:
+  branch:
+    - prod
+  event:
+    - custom
+
+steps:
+  - name: release dev
+    image: ghcr.io/appleboy/drone-ssh
+    settings:
+      host:
+        from_secret: yarovoycompany.ru
+      username:
+        from_secret: yarovoy-admin-prod-username
+      port: 22
+      key:
+        from_secret: yarovoy-admin-prod-ssh-key
+      script:
+        - cd /var/www/yarovoycompany ; git reset --hard HEAD ; git switch prod; git pull 

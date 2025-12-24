@@ -1,0 +1,28 @@
+.popup-code__content {
+	width: 775px;
+	max-width: 100%;
+	background: #EEEEEE;
+	padding: 47px 56px;
+	border-radius: 20px;
+	position: relative;
+
+	@media (max-width: $mobile) {
+		padding: 30px 20px;
+	}
+}
+
+.popup-code__title {
+	font-size: var(--fz-h1);
+	line-height: 110%;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+
+	@media (max-width: $mobile) {
+		font-size: 20px;
+	}
+}
+
+.popup-code__text {
+	color: var(--fg-gray-5);
+	margin-bottom: 30px;
+}

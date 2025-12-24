@@ -1,0 +1,19 @@
+.upload-car__order {
+	margin-bottom: 30px;
+	font-size: 22px;
+	line-height: 26px;
+
+	& button {
+		padding: 0;
+		background: none;
+		border: none;
+		color: var(--fg-red);
+		text-decoration: underline;
+		font-weight: 700;
+		cursor: pointer;
+
+		&:hover {
+			opacity: .7;
+		}
+	}
+}

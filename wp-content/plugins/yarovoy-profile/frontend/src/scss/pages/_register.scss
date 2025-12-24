@@ -1,0 +1,46 @@
+.register__form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 95px;
+
+	& .input {
+		margin: 0 0 30px;
+	}
+
+	@media (max-width: $tablet) {
+		gap: 30px;
+	}
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+}
+
+.register__form-btn {
+	height: 72px;
+	width: 100%;
+}
+
+.register__form-link {
+	text-align: center;
+
+	& .auth__form-forgot {
+		display: inline-block;
+		text-decoration: underline;
+	}
+}
+
+.register__form {
+	& .checkbox__field {
+		margin-bottom: 20px;
+	}
+
+	& .checkbox__field-label {
+		color: var(--fg-white);
+	}
+
+	& .checkbox__field-icon {
+		border-color: var(--fg-white);
+	}
+}

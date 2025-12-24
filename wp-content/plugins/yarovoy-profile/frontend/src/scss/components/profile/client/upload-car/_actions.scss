@@ -1,0 +1,77 @@
+.upload-car__actions {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 50px;
+
+	@media (max-width: $tablet) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
+}
+
+.upload-car__actions button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 23px 0;
+	background: var(--fg-red);
+	color: var(--fg-white);
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: var(--fz-20);
+	border: 2px solid var(--fg-red);
+	text-transform: uppercase;
+	width: 299px;
+	max-width: 100%;
+	margin-right: 35px;
+	cursor: pointer;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	& svg {
+		margin-left: 10px;
+	}
+
+	@media (max-width: $tablet) {
+		margin-right: 0;
+		width: 100%;
+
+		&:last-child {
+			grid-area: 1/2;
+		}
+	}
+}
+
+button.upload-car__actions--next:hover {
+	color: #fff;
+	border-color: #cd463d;
+	background: #cd463d;
+}
+
+button.upload-car__actions--prev {
+	background: none;
+	color: var(--fg-dark);
+	border-color: var(--fg-dark);
+
+	& svg {
+		margin-left: 0;
+		margin-right: 10px;
+
+		& path {
+			transition: all .3s;
+		}
+	}
+
+	&:hover {
+		color: var(--fg-white);
+		background: var(--fg-dark);
+
+		& path {
+			fill: var(--fg-white);
+		}
+	}
+}

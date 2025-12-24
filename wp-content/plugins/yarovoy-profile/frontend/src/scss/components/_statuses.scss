@@ -1,0 +1,16 @@
+.profile__status {
+	display: inline-flex;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	background-color: var(--fg-red);
+	color: var(--fg-white);
+
+	&._created {
+		background-color: var(--fg-yellow);
+	}
+
+	&._canceled {
+		background-color: var(--fg-green);
+	}
+}

@@ -1,0 +1,24 @@
+.upload-car__steps {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 160px;
+
+	@media(max-width: $tablet) {
+		margin-top: 80px;
+		flex-direction: column;
+	}
+}
+
+.upload-car__form {
+	width: 959px;
+	max-width: 100%;
+}
+
+
+.upload-car__step {
+	display: none;
+
+	&._active {
+		display: block;
+	}
+}

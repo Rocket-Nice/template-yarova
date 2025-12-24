@@ -1,0 +1,83 @@
+.profile-upload__car-add {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 23px 40px;
+	border: none;
+	background: var(--fg-red);
+	color: var(--fg-white);
+	font-weight: 700;
+	font-size: var(--fz-20);
+	text-transform: uppercase;
+	border-radius: 5px;
+	width: max-content;
+	margin: 0 auto 60px;
+
+	& svg {
+		margin-left: 10px;
+	}
+
+	&:hover {
+		color: #fff;
+		border-color: #cd463d;
+		background: #cd463d;
+	}
+}
+
+.profile-upload__car-block {
+	margin-bottom: 60px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.profile-upload__car-title {
+	font-size: var(--fz-h3);
+	font-weight: 700;
+	margin-bottom: 20px;
+
+	&._red {
+		color: var(--fg-red);
+	}
+}
+
+.profile-upload__car-item {
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.profile-upload__car-edit {
+	width: 39px;
+	height: 39px;
+	border-radius: 3px;
+	background-color: #EEEEEE;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 20px;
+}
+
+.profile-upload__car-actions {
+	display: flex;
+	align-items: center;
+}
+
+.profile-upload__car-sold {
+	margin-left: 15px;
+	height: 39px;
+	padding: 0 30px;
+	background: var(--fg-black);
+	border: none;
+	border-radius: 3px;
+	color: var(--fg-white);
+	cursor: pointer;
+
+	&:after {
+		right: 8px;
+		margin-top: -8px;
+		width: 16px;
+		height: 16px;
+	}
+}

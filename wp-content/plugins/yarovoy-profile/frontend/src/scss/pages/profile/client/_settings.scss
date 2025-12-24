@@ -1,0 +1,61 @@
+.profile-settings__alert {
+	color: var(--fg-red);
+	font-size: var(--fz-regular);
+	margin-bottom: 30px;
+}
+
+.profile-settings__client-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 30px;
+	row-gap: 0;
+
+	& .checkbox__field {
+		margin-bottom: 17px;
+
+		&:first-child {
+			margin-top: 30px;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	@media (max-width: $tablet) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+	}
+}
+
+.profile-settings__client-actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+
+	& .input__link {
+		margin-top: 0;
+	}
+
+	& .btn {
+		width: 440px;
+		max-width: 100%;
+
+		@media (max-width: $mobile) {
+			margin-top: 15px;
+		}
+	}
+
+	@media (max-width: $mobile) {
+		flex-direction: column;
+		margin-top: 10px;
+	}
+}
+
+.profile-settings__client .profile-form__checkboxes {
+	margin-top: 30px;
+}

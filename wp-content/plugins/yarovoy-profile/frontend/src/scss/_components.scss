@@ -1,0 +1,50 @@
+@import "./components/inputs";
+@import "./components/form";
+@import "./components/repeat-code";
+@import "./components/button";
+@import "./components/statuses";
+
+// Form
+@import "./components/form/pug";
+@import "./components/form/file";
+@import "./components/form/gallery";
+@import "./components/form/checkbox";
+@import "./components/form/inspection";
+@import "./components/form/custom-checkbox";
+@import "./components/form/preview";
+@import "./components/form/colors";
+@import "./components/form/multi-checkbox";
+
+// Profile
+@import "./components/profile/menu";
+@import "./components/profile/modals";
+@import "./components/profile/select-image";
+@import "./components/profile/select-image";
+
+// Profile: modals
+@import "./components/profile/modals/reset-password";
+@import "./components/profile/modals/get-code";
+@import "./components/profile/modals/profile";
+
+// Profile: settings
+@import "./components/profile/settings/fields";
+@import "./components/profile/settings/service";
+
+// Profile: upload-car
+@import "./components/profile/client/upload-car/form";
+@import "./components/profile/client/upload-car/textarea";
+@import "./components/profile/client/upload-car/menu";
+@import "./components/profile/client/upload-car/gallery";
+@import "./components/profile/client/upload-car/actions";
+@import "./components/profile/client/upload-car/checkbox";
+@import "./components/profile/client/upload-car/order";
+
+// Profile: report client
+@import "./components/profile/client/report/single/head";
+@import "./components/profile/client/report/single/features";
+@import "./components/profile/client/report/single/gallery";
+@import "./components/profile/client/report/single/equipment";
+@import "./components/profile/client/report/single/inspection";
+@import "./components/profile/client/report/single/dashboard";
+@import "./components/profile/client/report/single/summary";
+@import "./components/profile/client/report/single/videos";

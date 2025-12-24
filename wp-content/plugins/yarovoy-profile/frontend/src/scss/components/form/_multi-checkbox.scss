@@ -1,0 +1,28 @@
+.multi-checkbox {
+	background: var(--fg-white);
+	padding: 15px 25px;
+	border: 1px solid #5e5e5e;
+	border-radius: 5px;
+	margin-bottom: 15px;
+
+	&__title {
+		font-size: var(--fz-20);
+		margin-bottom: 15px;
+	}
+
+	&__list {
+		max-height: 200px;
+		overflow-y: auto;
+	}
+
+	&__item {
+		margin-bottom: 15px;
+
+		& .checkbox__field {
+			&-label {
+				padding-left: 40px;
+				font-size: 16px;
+			}
+		}
+	}
+}

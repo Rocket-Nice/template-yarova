@@ -1,0 +1,98 @@
+.upload-car__checkboxes {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+
+	&._100 {
+		justify-content: flex-start;
+		gap: 50px;
+
+		& .upload-car__checkboxes-item {
+			margin-bottom: 0;
+		}
+	}
+
+	&._nowrap {
+		flex-wrap: nowrap;
+	}
+}
+
+.upload-car__checkboxes-col {
+	width: max-content;
+}
+
+.upload-car__checkboxes-col .checkbox__field {
+	margin-bottom: 30px;
+
+	&-label {
+		font-size: var(--fz-regular);
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.upload-car__checkboxes-item {
+	position: relative;
+	margin-bottom: 30px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	& input {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		margin: 0;
+		z-index: 10;
+	}
+
+	& span {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 30px;
+		height: 30px;
+		border-radius: 5px;
+		border: 2px solid var(--fg-gray-5);
+		transition: all .3s;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 15px;
+			height: 10px;
+			background: url('../img/icons/icon-checkbox-white.svg') center center no-repeat;
+			background-size: contain;
+			opacity: 0;
+			transition: all .3s;
+		}
+	}
+
+	& label {
+		display: block;
+		font-weight: 400;
+		padding-left: 50px;
+		font-size: var(--fz-regular);
+	}
+
+	& input:checked + span {
+		background: var(--fg-red);
+		border-color: var(--fg-red);
+
+		&:after {
+			opacity: 1;
+		}
+	}
+}

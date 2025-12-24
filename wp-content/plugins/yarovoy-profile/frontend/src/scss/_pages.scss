@@ -1,0 +1,40 @@
+@import "pages/auth";
+@import "pages/register";
+@import "pages/reset";
+
+// Profile
+@import "pages/profile/profile";
+
+/** CLIENT **/
+
+// Settings
+@import "pages/profile/client/settings";
+
+// Upload car
+@import "pages/profile/client/upload-car/list";
+@import "pages/profile/client/upload-car/form";
+
+// Report
+@import "pages/profile/client/report/list";
+@import "pages/profile/client/report/form";
+
+// Contracts
+@import "pages/profile/client/contracts/client";
+@import "pages/profile/expert/contracts/list";
+
+/** END OF CLIENT **/
+
+/** EXPERT **/
+
+// Settings
+@import "pages/profile/expert/settings";
+
+// Security
+@import "pages/profile/expert/security";
+
+// Report
+@import "pages/profile/expert/report/list";
+@import "pages/profile/expert/report/form";
+@import "pages/profile/expert/report/search";
+
+/** END OF EXPERT */

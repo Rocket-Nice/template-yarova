@@ -1,0 +1,18 @@
+.profile-report__inspection-item {
+	margin-bottom: 40px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.profile-report__inspection-status {
+	color: var(--fg-red);
+	font-weight: 700;
+	font-size: var(--fz-20);
+	text-transform: uppercase;
+
+	&._success {
+		color: var(--fg-green);
+	}
+}

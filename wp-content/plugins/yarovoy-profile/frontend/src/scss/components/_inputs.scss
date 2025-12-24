@@ -1,0 +1,52 @@
+.input--black {
+	margin-bottom: 20px;
+}
+.input--black .input__cell {
+	background-color: var(--fg-black);
+	border: 3px solid var(--fg-white);
+	color: #fff;
+
+	&._error {
+		border-color: var(--fg-red);
+	}
+}
+.input--black .input__cell::placeholder {
+	color: var(--fg-white);
+}
+
+.input__show {
+	background: none;
+	padding: 0;
+	border: none;
+	position: absolute;
+	top: 25px;
+	right: 21px;
+	cursor: pointer;
+}
+.input__show:hover {
+	opacity: 0.7;
+}
+
+.input__timer {
+	position: absolute;
+	font-size: var(--fz-20);
+	line-height: 100%;
+	font-weight: 500;
+	right: 23px;
+	top: 25px;
+	opacity: .5;
+}
+
+.input__link {
+	cursor: pointer;
+	margin-top: 15px;
+	text-decoration: underline;
+	color: var(--fg-dark);
+	border: none;
+	padding: 0;
+	background: none;
+}
+
+.input__wrapper {
+	position: relative;
+}
