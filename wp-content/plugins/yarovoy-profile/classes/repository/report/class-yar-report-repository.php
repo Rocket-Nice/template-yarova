@@ -168,7 +168,12 @@ class YAR_Report_Repository {
 					'title'      => 'Телефон'
 				],
 			],
-			'features'            => $this->query( 'wp_yar_report_features' ),
+			'features'            => array_values(array_filter(
+				$this->query('wp_yar_report_features'),
+				function ($item) {
+					return $item['field_group'] !== 'interior_equipment';
+				}
+			)),
 			'vin'                 => $this->get_inspection( 'vin' ),
 			'gallery'             => yar_get_file_data(
 				yar_get_field( 'gallery', $this->post_id, [] )
